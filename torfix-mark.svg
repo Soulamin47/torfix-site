@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">TORFIX</title>
+  <desc id="desc">Wordmark TORFIX in purple on a dark rounded square.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120F20"/>
+      <stop offset="100%" stop-color="#09080F"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C7B7FF"/>
+      <stop offset="45%" stop-color="#8F72FF"/>
+      <stop offset="100%" stop-color="#6C47FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="54" fill="url(#bg)"/>
+  <rect x="12" y="12" width="232" height="232" rx="42" fill="none" stroke="#2A233F" stroke-opacity="0.7"/>
+  <text x="128" y="146" text-anchor="middle" font-family="Syne, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="4" fill="url(#ink)">TORFIX</text>
+</svg>

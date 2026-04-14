@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="24" x2="214" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181127"/>
+      <stop offset="1" stop-color="#0C0914"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="54" y1="48" x2="194" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5B8FF"/>
+      <stop offset="0.45" stop-color="#A86DFF"/>
+      <stop offset="1" stop-color="#6C47FF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="97" y1="70" x2="143" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1E5FF"/>
+      <stop offset="1" stop-color="#C993FF"/>
+    </linearGradient>
+    <filter id="shadow" x="20" y="20" width="216" height="216" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#6C47FF" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M128 42C165.555 42 196 72.445 196 110C196 129.4 187.855 146.897 174.798 159.291C165.665 167.961 156.337 174.455 150.467 184.881C147.628 189.922 142.259 193 136.473 193H128V171C156.166 171 179 148.166 179 120C179 91.8335 156.166 69 128 69C99.8335 69 77 91.8335 77 120C77 137.279 85.5928 152.55 98.7561 161.77L85.9474 179.649C66.6994 166.165 54 144.06 54 119C54 76.5781 87.5781 42 128 42Z" fill="url(#ring)"/>
+    <path d="M93 93C93 88.5817 96.5817 85 101 85H155C159.418 85 163 88.5817 163 93C163 97.4183 159.418 101 155 101H136V157C136 161.418 132.418 165 128 165H120C115.582 165 112 161.418 112 157V101H101C96.5817 101 93 97.4183 93 93Z" fill="url(#core)"/>
+  </g>
+</svg>

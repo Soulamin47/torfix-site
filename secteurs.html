@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TORFIX — Une approche adaptée à votre secteur</title>
+  <meta name="description" content="Torfix conçoit des sites et des systèmes digitaux adaptés à différents métiers : coiffure, restauration, coaching, artisanat et services.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#09080F">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="TORFIX">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TORFIX — Une approche adaptée à votre secteur">
+  <meta property="og:description" content="Torfix conçoit des sites et des systèmes digitaux adaptés à différents métiers : coiffure, restauration, coaching, artisanat et services.">
+  <meta property="og:image" content="https://torfix.be/65eea83e-1cf5-4a0f-88d7-bc511547a7bf.png">
+  <meta property="og:image:width" content="1440">
+  <meta property="og:image:height" content="1312">
+  <meta property="og:image:alt" content="Aperçu du site Torfix">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TORFIX — Une approche adaptée à votre secteur">
+  <meta name="twitter:description" content="Torfix conçoit des sites et des systèmes digitaux adaptés à différents métiers : coiffure, restauration, coaching, artisanat et services.">
+  <meta name="twitter:image" content="https://torfix.be/65eea83e-1cf5-4a0f-88d7-bc511547a7bf.png">
+  <meta name="twitter:image:alt" content="Aperçu du site Torfix">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="favicon-square.svg" type="image/svg+xml">
+  <link rel="icon" href="logo-torfix-cropped.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="logo-torfix-cropped.png" sizes="192x192" type="image/png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="favicon.ico">
+  <link rel="manifest" href="site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scroll-progress"></div>
+<div class="page-overlay" id="page-overlay"></div>
+
+<!-- ══ NAVBAR ══ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Torfix accueil"><img class="nav-logo-image" src="logo-torfix-cropped.png" alt="Torfix"><span class="nav-logo-text" aria-hidden="true">TORFIX</span></a>
+    <div class="nav-links">
+      <a href="index.html#offre">Offre</a>
+      <a href="index.html#process">Méthode</a>
+      <a href="services.html">Services</a>
+                    <a href="secteurs.html" class="nav-active">Secteurs</a>
+      <a href="index.html#faq">Questions</a>
+    </div>
+    <div class="nav-meta">
+      <div class="lang-switch" aria-label="Sélecteur de langue">
+                        <a class="lang-pill active" href="secteurs.html" lang="fr">FR</a>
+        <a class="lang-pill" href="sectors-en.html" lang="en">EN</a>
+      </div>
+    </div>
+    <button class="nav-cta" onclick="openModal()">Recevoir ma proposition</button>
+    <button class="nav-burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-mobile">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="index.html#offre" onclick="closeMobile()">Offre</a>
+    <a href="index.html#process" onclick="closeMobile()">Méthode</a>
+    <a href="services.html" onclick="closeMobile()">Services</a>
+                    <a href="secteurs.html" onclick="closeMobile()">Secteurs</a>
+    <a href="index.html#faq" onclick="closeMobile()">Questions</a>
+    <div class="lang-switch lang-switch-mobile" aria-label="Sélecteur de langue">
+                        <a class="lang-pill active" href="secteurs.html" lang="fr">FR</a>
+      <a class="lang-pill" href="sectors-en.html" lang="en">EN</a>
+    </div>
+    <button class="nav-cta" onclick="closeMobile(); openModal()">Recevoir ma proposition</button>
+  </div>
+</nav>
+
+<!-- ══ PAGE HERO ══ -->
+<section class="page-hero page-hero-soft" id="hero">
+  <div class="hero-parallax" id="hero-parallax"></div>
+  <div class="container">
+    <div class="page-hero-inner fade-up">
+      <div class="page-hero-badge">
+        <span class="badge-dot"></span>
+        25 métiers compatibles
+      </div>
+      <h1 class="page-hero-h1">Des sites pensés selon<br><span>les besoins de votre métier.</span></h1>
+      <p class="page-hero-sub">Coiffure, restauration, coaching ou artisanat: le site, les messages et les outils sont ajustés à la façon dont vos clients découvrent votre activité et prennent contact.</p>
+      <div class="page-hero-ctas">
+        <button class="btn-primary" onclick="openModal()">Recevoir ma proposition</button>
+        <a href="#niches" class="btn-ghost-dark">Voir les secteurs ↓</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ NICHES ══ -->
+<section class="section" id="niches">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">Votre métier</div>
+      <h2 class="section-h2">Choisissez votre secteur pour voir si Torfix correspond à votre activité.</h2>
+      <p class="section-sub">Cliquez sur votre catégorie pour découvrir les métiers compatibles et la logique de site la plus pertinente pour ce type d'activité.</p>
+    </div>
+
+    <div class="niches-top fade-up">
+      <div class="niche-card niche-open" id="nc-b" onclick="toggleNiche('b')" role="button" tabindex="0" aria-expanded="true" aria-controls="dp-b">
+        <div class="niche-accent" style="background:var(--accent)"></div>
+        <div class="niche-circ" style="background:var(--accent-light)">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.4l4.5 2.7-0.8 1.1z" fill="#6C47FF"/></svg>
+        </div>
+        <div class="niche-name">Beauté & bien-être</div>
+        <div class="niche-count">7 métiers</div>
+        <span class="niche-arrow" id="arr-b">&#8964;</span>
+      </div>
+      <div class="niche-card" id="nc-f" onclick="toggleNiche('f')" role="button" tabindex="0" aria-expanded="false" aria-controls="dp-f">
+        <div class="niche-accent" style="background:var(--orange)"></div>
+        <div class="niche-circ" style="background:var(--orange-light)">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M18.06 22.99h1.66c.84 0 1.53-.64 1.63-1.46L23 5.05h-5V1h-1.97v4.05h-4.97l.3 2.34c1.71.47 3.31 1.32 4.27 2.26 1.44 1.42 2.43 2.89 2.43 5.29v8.05zM1 21.99V21h15.03v.99c0 .55-.45 1-1.01 1H2.01c-.56 0-1.01-.45-1.01-1zm15.03-7c0-8-15.03-8-15.03 0h15.03zM1.02 17h15v2H1.02v-2z" fill="#F59E0B"/></svg>
+        </div>
+        <div class="niche-name">Food & restauration</div>
+        <div class="niche-count">6 métiers</div>
+        <span class="niche-arrow" id="arr-f">&#8964;</span>
+      </div>
+      <div class="niche-card" id="nc-c" onclick="toggleNiche('c')" role="button" tabindex="0" aria-expanded="false" aria-controls="dp-c">
+        <div class="niche-accent" style="background:var(--blue)"></div>
+        <div class="niche-circ" style="background:var(--blue-light)">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="#3B82F6"/></svg>
+        </div>
+        <div class="niche-name">Coaching & formation</div>
+        <div class="niche-count">6 métiers</div>
+        <span class="niche-arrow" id="arr-c">&#8964;</span>
+      </div>
+      <div class="niche-card" id="nc-s" onclick="toggleNiche('s')" role="button" tabindex="0" aria-expanded="false" aria-controls="dp-s">
+        <div class="niche-accent" style="background:var(--green)"></div>
+        <div class="niche-circ" style="background:var(--green-light)">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z" fill="#10B981"/></svg>
+        </div>
+        <div class="niche-name">Services & artisanat</div>
+        <div class="niche-count">6 métiers</div>
+        <span class="niche-arrow" id="arr-s">&#8964;</span>
+      </div>
+    </div>
+
+    <!-- Dropdowns -->
+    <div class="niche-dropdown niche-open" id="dp-b">
+      <div class="nd-header" style="color:var(--accent)"><span>Beauté & bien-être</span><span class="nd-count">7 activités</span></div>
+      <div class="nd-grid" id="lg-b"></div>
+    </div>
+    <div class="niche-dropdown" id="dp-f">
+      <div class="nd-header" style="color:var(--orange)"><span>Food & restauration</span><span class="nd-count">6 activités</span></div>
+      <div class="nd-grid" id="lg-f"></div>
+    </div>
+    <div class="niche-dropdown" id="dp-c">
+      <div class="nd-header" style="color:var(--blue)"><span>Coaching & formation</span><span class="nd-count">6 activités</span></div>
+      <div class="nd-grid" id="lg-c"></div>
+    </div>
+    <div class="niche-dropdown" id="dp-s">
+      <div class="nd-header" style="color:var(--green)"><span>Services & artisanat</span><span class="nd-count">6 activités</span></div>
+      <div class="nd-grid" id="lg-s"></div>
+    </div>
+
+    <div class="niches-cta-row fade-up">
+      <p class="ncr-text">Votre métier n'est pas listé ? <span>Le site peut quand même être adapté à votre activité.</span></p>
+      <button class="btn-primary btn-sm" onclick="openModal()">Recevoir ma proposition</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══ AVANTAGES PAR SECTEUR ══ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header fade-up">
+      <div class="section-tag">Pourquoi ça marche</div>
+      <h2 class="section-h2">Chaque secteur a ses priorités. Le site doit en tenir compte.</h2>
+      <p class="section-sub">On ne construit pas le même site pour un salon, un restaurant, un coach ou un artisan. Le contenu, les parcours et les outils doivent suivre la réalité du métier.</p>
+    </div>
+    <div class="sector-grid fade-up">
+      <div class="sector-card">
+        <div class="sector-top" style="background:var(--accent-light)">
+          <div class="sector-emoji">💇</div>
+        </div>
+        <div class="sector-body">
+          <div class="sector-name">Beauté & bien-être</div>
+          <p class="sector-desc">Système de réservation en ligne, galerie avant/après, avis clients, gestion des créneaux. Ce dont un salon a besoin pour tourner sans décrocher le téléphone.</p>
+          <div class="sector-tags">
+            <span class="s-tag">Réservation</span><span class="s-tag">Galerie</span><span class="s-tag">Avis</span>
+          </div>
+        </div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-top" style="background:var(--orange-light)">
+          <div class="sector-emoji">🍽️</div>
+        </div>
+        <div class="sector-body">
+          <div class="sector-name">Food & restauration</div>
+          <p class="sector-desc">Menu en ligne, réservation de table, Click & Collect, horaires, carte Google. Un site qui remplace un dossier d'accueil et fait venir les gens à table.</p>
+          <div class="sector-tags">
+            <span class="s-tag">Menu</span><span class="s-tag">Réservation</span><span class="s-tag">Click & Collect</span>
+          </div>
+        </div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-top" style="background:var(--blue-light)">
+          <div class="sector-emoji">🎯</div>
+        </div>
+        <div class="sector-body">
+          <div class="sector-name">Coaching & formation</div>
+          <p class="sector-desc">Page de vente, programme détaillé, témoignages, appel découverte en ligne. Un système qui tourne pendant que vous coachez vos clients.</p>
+          <div class="sector-tags">
+            <span class="s-tag">Landing page</span><span class="s-tag">Témoignages</span><span class="s-tag">Appels</span>
+          </div>
+        </div>
+      </div>
+      <div class="sector-card">
+        <div class="sector-top" style="background:var(--green-light)">
+          <div class="sector-emoji">🔧</div>
+        </div>
+        <div class="sector-body">
+          <div class="sector-name">Services & artisanat</div>
+          <p class="sector-desc">Devis en ligne, portfolio de réalisations, zone d'intervention, urgences. Un site qui génère des demandes qualifiées 24h/24.</p>
+          <div class="sector-tags">
+            <span class="s-tag">Devis</span><span class="s-tag">Portfolio</span><span class="s-tag">Urgences</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA FINAL ══ -->
+<section class="section cta-final-section">
+  <div class="container">
+    <div class="cta-final fade-up">
+      <div class="cf-tag">Offre sans risque</div>
+      <h2 class="cf-title">Votre métier mérite<br><span>un système qui travaille pour vous.</span></h2>
+      <p class="cf-sub">On conçoit votre site gratuitement, adapté à votre secteur. Vous choisissez ensuite ce que vous activez. Pas de contrat, pas de surprise.</p>
+      <div class="cf-btns">
+        <button class="btn-primary btn-lg" onclick="openModal()">Recevoir ma proposition</button>
+        <button class="btn-secondary btn-lg" onclick="openModal()">Réserver un appel de 15 min</button>
+      </div>
+      <div class="cf-checks">
+        <span class="cf-chk">Conception offerte</span>
+        <span class="cf-chk">Sans engagement</span>
+        <span class="cf-chk">Réponse sous 24h</span>
+        <span class="cf-chk">Résiliation libre</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="ft-logo">TORFIX</div>
+        <p class="ft-tag">Solution digitale pour entreprises locales.</p>
+        <a href="mailto:info@torfix.be" class="ft-email">info@torfix.be</a>
+        <a href="https://wa.me/32466386565" class="ft-whatsapp" target="_blank" rel="noopener" aria-label="Nous contacter sur WhatsApp">
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" fill="#25D366"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.553 4.1 1.523 5.824L0 24l6.335-1.498A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.803 9.803 0 01-5.032-1.382l-.36-.214-3.733.882.933-3.618-.235-.372A9.782 9.782 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z" fill="#25D366"/></svg>
+          <span class="sr-only">WhatsApp</span>
+        </a>
+      </div>
+      <div>
+        <div class="ft-col-title">Navigation</div>
+        <a class="ft-link" href="index.html#offre">Offre</a>
+        <a class="ft-link" href="index.html#process">Méthode</a>
+        <a class="ft-link" href="services.html">Services</a>
+                    <a class="ft-link" href="secteurs.html">Secteurs</a>
+        <a class="ft-link" href="index.html#faq">Questions</a>
+      </div>
+      <div>
+        <div class="ft-col-title">Secteurs</div>
+                    <a class="ft-link" href="secteurs.html">Coiffeurs</a>
+                    <a class="ft-link" href="secteurs.html">Restaurants</a>
+                    <a class="ft-link" href="secteurs.html">Coachs</a>
+                    <a class="ft-link" href="secteurs.html">Artisans</a>
+                    <a class="ft-link" href="secteurs.html">Voir tout →</a>
+      </div>
+      <div>
+        <div class="ft-col-title">Légal</div>
+        <a class="ft-link" href="mentions-legales.html">Mentions légales</a>
+        <a class="ft-link" href="confidentialite.html">Confidentialité</a>
+        <a class="ft-link" href="cgv.html">CGV</a>
+        <a class="ft-link" href="cookies.html">Cookies</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Torfix — Tous droits réservés</span>
+      <span class="fb-right">torfix.com</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ MODAL ══ -->
+<div class="modal-overlay" id="modal" onclick="handleOverlayClick(event)" role="dialog" aria-modal="true" aria-label="Formulaire de demande Torfix" aria-hidden="true">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()" aria-label="Fermer">&times;</button>
+    <div class="modal-progress">
+      <div class="progress-step active" id="prog-1"><span class="prog-num">1</span><span class="prog-label">Vos informations</span></div>
+      <div class="progress-line"></div>
+      <div class="progress-step" id="prog-2"><span class="prog-num">2</span><span class="prog-label">Votre projet</span></div>
+    </div>
+    <div class="modal-step" id="step-1">
+      <div class="modal-header"><h3 class="modal-title">Parlez-nous de vous</h3><p class="modal-sub">On revient vers vous sous 24h avec une proposition.</p></div>
+      <form id="form-step1" onsubmit="goStep2(event)" novalidate>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label" for="prenom">Prénom *</label><input class="form-input" type="text" id="prenom" name="prenom" placeholder="Votre prénom" autocomplete="given-name" required></div>
+          <div class="form-group"><label class="form-label" for="entreprise">Nom de l'entreprise *</label><input class="form-input" type="text" id="entreprise" name="entreprise" placeholder="Ex: Salon Maya" autocomplete="organization" required></div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="secteur">Secteur d'activité *</label>
+          <select class="form-input form-select" id="secteur" name="secteur" required>
+            <option value="">Choisissez votre secteur</option>
+            <optgroup label="Beauté & bien-être"><option>Coiffeur / coiffeuse</option><option>Institut de beauté</option><option>Barbier</option><option>Nail artist</option><option>Spa & massage</option><option>Tatoueur</option><option>Esthéticienne à domicile</option></optgroup>
+            <optgroup label="Food & restauration"><option>Restaurant</option><option>Traiteur</option><option>Food truck</option><option>Boulangerie-pâtisserie</option><option>Café & brunch</option><option>Chef à domicile</option></optgroup>
+            <optgroup label="Coaching & formation"><option>Coach sportif</option><option>Coach de vie</option><option>Formateur en ligne</option><option>Professeur particulier</option><option>Thérapeute & psy</option><option>Nutritionniste</option></optgroup>
+            <optgroup label="Services & artisanat"><option>Plombier</option><option>Électricien</option><option>Menuisier</option><option>Photographe</option><option>Cleaner / ménage</option><option>Jardinier & paysagiste</option></optgroup>
+            <option value="autre">Autre secteur</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label" for="email">Email *</label><input class="form-input" type="email" id="email" name="email" placeholder="vous@exemple.com" autocomplete="email" required></div>
+          <div class="form-group"><label class="form-label" for="tel">Téléphone</label><input class="form-input" type="tel" id="tel" name="tel" placeholder="06 12 34 56 78" autocomplete="tel"></div>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Continuer →</button>
+      </form>
+    </div>
+    <div class="modal-step" id="step-2" style="display:none">
+      <div class="modal-header"><h3 class="modal-title">Votre projet en détail</h3><p class="modal-sub">Sélectionnez ce qui correspond à vos besoins.</p></div>
+      <form id="form-step2" action="https://formspree.io/f/xzdybbev" method="POST" onsubmit="handleSubmit(event)" novalidate>
+        <input type="hidden" id="h-prenom" name="prenom"><input type="hidden" id="h-entreprise" name="entreprise"><input type="hidden" id="h-secteur" name="secteur"><input type="hidden" id="h-email" name="email"><input type="hidden" id="h-tel" name="tel">
+        <div class="form-group">
+          <label class="form-label">Formule souhaitée *</label>
+          <div class="radio-group">
+            <label class="radio-option"><input type="radio" name="formule" value="Vitrine — 49€/mois" required><span class="radio-box"><span class="radio-name">Vitrine</span><span class="radio-price">49€/mois</span></span></label>
+            <label class="radio-option"><input type="radio" name="formule" value="Système — 89€/mois"><span class="radio-box radio-popular"><span class="radio-pop-badge">Populaire</span><span class="radio-name">Système</span><span class="radio-price">89€/mois</span></span></label>
+            <label class="radio-option"><input type="radio" name="formule" value="Premium — 119€/mois"><span class="radio-box"><span class="radio-name">Premium</span><span class="radio-price">119€/mois</span></span></label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Outils souhaités (optionnel)</label>
+          <div class="check-group">
+            <label class="check-option"><input type="checkbox" name="outils" value="Réservation en ligne"><span>Réservation en ligne</span></label>
+            <label class="check-option"><input type="checkbox" name="outils" value="Rappels automatiques"><span>Rappels automatiques</span></label>
+            <label class="check-option"><input type="checkbox" name="outils" value="Gestion client (CRM)"><span>Gestion client (CRM)</span></label>
+            <label class="check-option"><input type="checkbox" name="outils" value="Assistant IA"><span>Assistant IA</span></label>
+          </div>
+        </div>
+        <div class="form-group"><label class="form-label" for="message">Décrivez votre activité & vos besoins</label><textarea class="form-input form-textarea" id="message" name="message" placeholder="Ex: Je suis coiffeur à Lyon..."></textarea></div>
+        <div class="form-actions"><button type="button" class="btn-ghost" onclick="goStep1()">← Retour</button><button type="submit" class="btn-primary btn-grow">Envoyer ma demande</button></div>
+      </form>
+    </div>
+    <div class="modal-step" id="step-success" style="display:none">
+      <div class="success-screen">
+        <div class="success-icon">✓</div>
+        <h3 class="success-title">Demande envoyée !</h3>
+        <p class="success-sub">On vous répond sous 24h avec une proposition adaptée à votre activité.</p>
+        <div class="success-checks"><span class="success-chk">Conception offerte</span><span class="success-chk">Sans engagement</span></div>
+        <button class="btn-primary" onclick="closeModal()">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/TORAMI/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/4d1de952-e6d6-475e-8b63-f99bb9deae85/7c3a3adb-f98a-471d-9e9d-a5a0555dd2ac/skills/docx/**)",
+      "Bash(pandoc \"C:\\\\Users\\\\TORAMI\\\\Desktop\\\\Site\\\\TORFIX_Plan_Amin_v2 \\(2\\).docx\" -o output.md)",
+      "Bash(python \"C:\\\\Users\\\\TORAMI\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\4d1de952-e6d6-475e-8b63-f99bb9deae85\\\\7c3a3adb-f98a-471d-9e9d-a5a0555dd2ac\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\TORAMI\\\\Desktop\\\\Site\\\\TORFIX_Plan_Amin_v2 \\(2\\).docx\" \"/tmp/torfix_plan_unpacked\")",
+      "Bash(cd /tmp)",
+      "Bash(python3 -c \":*)",
+      "Bash(npx --version)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

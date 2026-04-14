@@ -1,0 +1,26 @@
+{
+  "name": "TORFIX",
+  "short_name": "TORFIX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09080F",
+  "theme_color": "#09080F",
+  "icons": [
+    {
+      "src": "favicon-square.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo-torfix-cropped.png",
+      "sizes": "301x263",
+      "type": "image/png"
+    }
+  ]
+}
