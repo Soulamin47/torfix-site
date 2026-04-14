@@ -16,11 +16,7 @@
       "src": "favicon.ico",
       "sizes": "16x16 32x32 48x48",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo-torfix-cropped.png",
-      "sizes": "301x263",
-      "type": "image/png"
     }
   ]
 }
+
