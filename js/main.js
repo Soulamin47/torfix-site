@@ -1,4 +1,4 @@
-/* TORFIX main.js */
+﻿/* TORFIX main.js */
 
 /* PAGE TRANSITION */
 const pageOverlay = document.getElementById('page-overlay');
